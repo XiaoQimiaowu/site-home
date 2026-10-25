@@ -1,6 +1,6 @@
 # xiaoqity.top
 
-基于原有个人站模板的独立站点，使用 Vue 3 + Vite，准备通过 GitHub 和 Vercel 部署。
+基于原有个人站模板的独立站点，使用 Vue 3 + Vite，通过 GitHub Pages 部署。
 
 ## 个人信息
 
@@ -25,15 +25,15 @@ pnpm build
 pnpm preview
 ```
 
-## GitHub 与 Vercel
+## GitHub Pages
 
-1. 将本目录作为朋友 GitHub 仓库的根目录上传，不上传 `node_modules`、`dist`、`.env.local` 或 `.vercel`。
-2. 在 Vercel 中导入该 GitHub 仓库，框架选择 Vite，根目录保持仓库根目录。构建设置已写入 `vercel.json`，输出目录为 `dist`。
-3. 构建成功后，进入项目 Settings → Domains，添加 `xiaoqity.top`。
-4. 在域名服务商处，按该项目实际显示的要求配置 DNS；确认域名验证和 HTTPS 均成功。
-5. 后续向生产分支推送更新，由 Vercel 自动构建发布。
+1. 仓库管理员进入 Settings → Pages，将 Source 设为 GitHub Actions。
+2. 在 Custom domain 中保存 `xiaoqity.top`。本项目资源路径按自定义域名根目录构建。
+3. 在域名服务商处，为 `@` 添加四条 A 记录：`185.199.108.153`、`185.199.109.153`、`185.199.110.153`、`185.199.111.153`。
+4. 等待 DNS 检查及 HTTPS 证书完成，启用 Enforce HTTPS。
+5. `.github/workflows/pages.yml` 会在推送到 `main` 时安装依赖、构建并发布 `dist`；也可在 Actions 中手动运行 Deploy GitHub Pages。
 
-官方说明：[GitHub 部署](https://vercel.com/docs/git/vercel-for-github) · [域名设置](https://vercel.com/docs/domains/set-up-custom-domain)。
+官方说明：[自动部署](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) · [域名设置](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)。
 
 ## 模板许可
 
