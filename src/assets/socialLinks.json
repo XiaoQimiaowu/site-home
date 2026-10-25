@@ -1,0 +1,14 @@
+[
+  {
+    "name": "GitHub",
+    "icon": "/images/icon/github.png",
+    "tip": "去 GitHub 看看小淇",
+    "url": "https://github.com/XiaoQimiaowu"
+  },
+  {
+    "name": "Bilibili",
+    "icon": "/images/icon/bilibili.png",
+    "tip": "去 B 站看看小淇",
+    "url": "https://space.bilibili.com/2135134808"
+  }
+]
