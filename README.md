@@ -9,7 +9,7 @@
 - `.env.production`：公开的站点名称、简介、域名和功能配置；开发时也使用该配置。
 - `src/assets/socialLinks.json`：社交链接。
 - `src/assets/siteLinks.json`：个人网站及项目。
-- 首页已配置 16 张气象工具和爱好者群跳转卡片，每页 6 张，共 3 页；名称和地址以 `siteLinks.json` 为准，QQ群使用提供的完整邀请链接。
+- 首页已配置 17 张气象工具和爱好者群跳转卡片，每页 6 张，共 3 页；名称和地址以 `siteLinks.json` 为准，QQ群使用提供的完整邀请链接。
 - `src/assets/friendLinks.json`：友情链接。
 - `public/images/icon/`：头像、浏览器和安装应用图标；替换头像时请同步更新这些图标。
 - `package.json` 的 `github`：小淇的仓库 https://github.com/XiaoQimiaowu/site-home，设置页显示该源码入口。
