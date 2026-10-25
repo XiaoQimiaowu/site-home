@@ -28,5 +28,55 @@
     "icon": "Users",
     "name": "中国台风/气象监测爱好者群",
     "link": "https://qun.qq.com/universal-share/share?ac=1&authKey=sHa1o2mgybzwlEx5FOW5O4GuOC9O69NOKDofhcpSxjpuFcOsKbR4d8%2FFO3ulTAzt&busi_data=eyJncm91cENvZGUiOiI3MjQxMjE2MzciLCJ0b2tlbiI6IkxPbDl1MmJ1TUpENkRWQmQ0cDJ1VEoyYk8xMDFRc3RhZFd2T0tmYzZJZVhiT0Y0OWN2UkdPNTRBbWxpdXdsMmQiLCJ1aW4iOiIyMDQxMzY1OTM3In0%3D&data=qEeJSnoae804ZTx-0GranEx3kKdgR3btpzeR6fIcGKY3KhH2njkZf0bFp3FTnCer0MrUz2XZ_2qBmNVgv1d8nA&svctype=4&tempid=h5_group_info"
+  },
+  {
+    "icon": "Satellite",
+    "name": "CIMSS",
+    "link": "https://tropic.ssec.wisc.edu/tropic.php"
+  },
+  {
+    "icon": "Compass",
+    "name": "Dapiya",
+    "link": "https://www.dapiya.top/"
+  },
+  {
+    "icon": "Book",
+    "name": "RAMMB历史气旋数据",
+    "link": "https://rammb-data.cira.colostate.edu/tc_realtime/"
+  },
+  {
+    "icon": "GlobeAsia",
+    "name": "追风者视界",
+    "link": "https://www.storm-chasers.cn/"
+  },
+  {
+    "icon": "Compass",
+    "name": "飓风猎人",
+    "link": "https://cyclonicwx.com/"
+  },
+  {
+    "icon": "Satellite",
+    "name": "数字台风网",
+    "link": "https://agora.ex.nii.ac.jp/digital-typhoon/"
+  },
+  {
+    "icon": "Cloud",
+    "name": "冰点点",
+    "link": "https://www.freezenode.com/"
+  },
+  {
+    "icon": "CloudSun",
+    "name": "Cirro PISCES",
+    "link": "https://yandoos.balabot.top/"
+  },
+  {
+    "icon": "CloudSun",
+    "name": "雨猫天气",
+    "link": "https://weather.raineko.net/"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "zczcnnnn",
+    "link": "https://zczcnnnn.com/"
   }
 ]
