@@ -83,5 +83,10 @@
     "icon": "CloudSun",
     "name": "宝安中学气象社",
     "link": "https://bamc.top/"
+  },
+  {
+    "icon": "GlobeAsia",
+    "name": "earth nullschool",
+    "link": "https://earth.nullschool.net/"
   }
 ]
