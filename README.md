@@ -4,8 +4,6 @@
 
 ## 个人信息
 
-站主为小淇，头像使用站主提供的原图。简介：这里是小淇喵呜的个人站，建立于叶钻的小站的旁边。社交链接为小淇的 GitHub（https://github.com/XiaoQimiaowu）和 B 站主页（https://space.bilibili.com/2135134808）。友情链接仅保留叶钻猫猫的小站（https://raineko.net/），介绍为“做一颗星星，有棱有角，还会发光。”。个人项目、建站日期、备案及歌单尚未填写。
-
 - `.env.production`：公开的站点名称、简介、域名和功能配置；开发时也使用该配置。
 - `src/assets/socialLinks.json`：社交链接。
 - `src/assets/siteLinks.json`：个人网站及项目。
@@ -39,4 +37,4 @@ pnpm preview
 
 ## 模板许可
 
-沿用 Cats叶钻的个人站模板（基于 imsyy/home）。MIT 许可及原版权声明保留在 `LICENSE`；这些是模板来源记录，不是本站站主资料。
+沿用 Cats叶钻的个人站模板（基于 imsyy/home）。
