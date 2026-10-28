@@ -10,5 +10,11 @@
     "icon": "/images/icon/bilibili.png",
     "tip": "去 B 站看看小淇",
     "url": "https://space.bilibili.com/2135134808"
+  },
+  {
+    "name": "QQ",
+    "icon": "/images/icon/qq.png",
+    "tip": "小淇的 QQ：2686894388",
+    "url": "https://wpa.qq.com/msgrd?v=3&uin=2686894388&site=qq&menu=yes"
   }
 ]

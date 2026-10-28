@@ -6,6 +6,8 @@
         v-for="item in socialLinks"
         :key="item.name"
         :href="item.url"
+        :aria-label="item.tip"
+        :title="item.tip"
         target="_blank" rel="noopener noreferrer"
         @mouseenter="socialTip = item.tip"
         @mouseleave="socialTip = '通过这里联系我吧'"
